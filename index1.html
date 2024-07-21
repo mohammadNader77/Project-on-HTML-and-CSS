@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    width: 100%;
+}
+         .main_page{
+            position: absolute;
+            width: 100%;
+            
+
+        } 
+        .search button{
+            position: absolute;
+            top: 190px;
+            right: 77px;
+            padding: 15px;
+            border: none;
+            background-color: white;
+            border-radius: 0 4px 4px;
+            
+            text-decoration: underline;
+
+            display: inline;
+            padding: 3px;
+            box-sizing: border-box;
+        }
+       
+        .page{
+            background-color: #EFFBFB;
+          
+          
+           
+        }
+        .main{
+            background-color: #5AA4A3;
+            width: 100%;
+            background-image: url("image3.png");
+            background-repeat: repeat-x;
+            
+            
+            
+        }
+        .search input{
+            width: 100%;
+            height: 40px;
+            margin: 60px;
+            padding: 20px;
+            position: relative;
+            top:90px;
+           
+        }
+        
+      
+        
+        /* ----------------------------- */
+        .job{
+            background-color: white;
+            border: 4px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+            border-left-color: #5FA5A7;
+        }
+       
+        .Photosnap{
+            color: #619D9B;
+        }
+        
+        .senior_info{
+            display: flex;
+            margin: 10px 0;
+            gap:10px;
+        }
+        .senior_info .new{
+            
+            color: white;
+            border-radius: 15px;
+            background-color: #5CA3A5;
+            padding: 2px 5px;
+            
+        }
+       
+        .senior_info .featured{
+            color: white;
+            border-radius: 15px;
+            background-color: #2B3939;
+            padding: 2px 5px;
+        }
+        
+        
+        .language{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+            
+
+            
+        }
+        
+        .language span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        
+        .logo img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 70px;
+            margin: 20px;
+        }
+        .one{
+            padding: 10px;
+            margin: 60px;
+        }
+        .detalis_senior{
+            color: #ADB3B1;
+        }
+        /* ---------------------------------------------------------------- */
+        .tow{
+            padding: 10px;
+            margin: 60px;
+           
+        }
+        .job_h{
+            width: 1500px;
+            justify-content: flex-end;
+        }
+        .language_fullStack{
+           
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+            
+        }
+        .language_fullStack span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        .job_fullStack{
+            background-color: white;
+            border: 4px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+            border-left-color: #5FA5A7;
+        }
+        .manage{
+            color: #619D9B;
+        }
+      
+        .fullStack_info .new{
+            
+            color: white;
+            border-radius: 15px;
+            background-color: #5CA3A5;
+            padding: 2px 5px;
+            
+        }
+        .fullStack_info .featured{
+            color: white;
+            border-radius: 15px;
+            background-color: #2B3939;
+            padding: 2px 5px;
+        }
+
+        .detalis_fullStack{
+            color: #ADB3B1;
+        }
+        /* three */
+        .three{
+            padding: 10px;
+            margin: 60px;
+        }
+        .job_junior{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+            
+        }
+        .junior_info .new{
+            
+            color: white;
+            border-radius: 15px;
+            background-color: #5CA3A5;
+            padding: 2px 5px;
+            
+        }
+        
+        .account{
+            color: #619D9B;
+        }
+        .detalis_junior{
+            color: #ADB3B1;
+        }
+        .language_junior{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_junior span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+/* four */
+        .four{
+            padding: 10px;
+            margin: 60px;
+        }
+        .job_junior_front{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .myHome{
+            color: #5F948E;
+        }
+        .detalis_junior_front{
+            color: #ADB3B1;
+        }
+        .language_junior_front{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_junior_front span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* five */
+        .five{
+            padding: 10px;
+            margin: 60px;
+        }
+        .softWare{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .loopStudios{
+            color: #5F948E;
+        }
+        .detalis_software{
+            color: #ADB3B1;
+        }
+       
+        .language_junior_front{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_junior_front span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* six */
+        .six{
+            padding: 10px;
+            margin: 60px;
+        }
+        .backend{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .facelt{
+            color: #5F948E;
+        }
+        .detalis_backend{
+            color: #ADB3B1;
+        }
+        .language_backend{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_backend span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* seven */
+        .seven{
+            padding: 10px;
+            margin: 60px;
+        }
+        .shortly{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .shortly_1{
+            color: #5F948E;
+        }
+        .detalis_shortly{
+            color: #ADB3B1;
+        }
+        .language_shortly{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_shortly span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* eghit */
+        .eghit{
+            padding: 10px;
+            margin: 60px;
+        }
+        .insure{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .insure_1{
+            color: #5F948E;
+        }
+        .detalis_insure{
+            color: #ADB3B1;
+        }
+        .language_insure{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_insure span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* nine */
+        .nine{
+            padding: 10px;
+            margin: 60px;
+        }
+        .eyecam{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .eyecam_1{
+            color: #5F948E;
+        }
+        .detalis_eyecam{
+            color: #ADB3B1;
+        }
+        .language_eyecam{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_eyecam span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+        /* ten */
+        .ten{
+            padding: 10px;
+            margin: 60px;
+        }
+        .frond_end{
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: flex;
+            padding: 20px;
+        }
+        .frond_end_1{
+            color: #5F948E;
+        }
+        .detalis_frond_end{
+            color: #ADB3B1;
+        }
+        .language_frond_end{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: flex-end;
+            gap: 10px;
+            color: #5AA4A3;
+            margin: 20px;
+        }
+        .language_frond_end span{
+            background-color: #EEF7F6;
+            border-radius: 4px;
+            padding: 2px 2px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div class="page">
+        
+     
+    <div class="main">
+        <div class="search" style="width: 90%;">
+            <input type="text" name="search" id="search" placeholder="Search your dream job...">
+            <button >Clear</button>
+
+        </div>
+    </div>
+
+
+   
+        
+<!-- one -->
+        <div class="one">
+        <div class="job">
+            <div class="logo">
+                <img src="image1.png" alt="no image"></div>
+            <div class="job_h">
+        <div class="senior_info">
+            <span class="Photosnap">Photosnap</span>
+            <span class="new">New!</span>
+            <span class="featured">FEATURED</span>
+        </div>
+        <div class="Senior">
+            <h2>Senior Frondend Developer</h2>
+        <div class="detalis_senior">   
+            <span>1d ago</span>
+            <span>.</span>
+            <span>Full Time</span>
+            <span>.</span>
+            <span>USA Only</span>
+        </div>
+    </div>  
+    
+    </div>
+        <div class="language">
+            <span>Frondend</span>
+            <span>Senior</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+    </div>
+</div>
+<!-- tow -->
+<div class="tow">
+    <div class="job_fullStack">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="fullStack_info">
+        <span class="manage">Manage</span>
+        <span class="new">New!</span>
+        <span class="featured">FEATURED</span>
+    </div>
+    <div class="fullStack">
+        <h2>FullStack Developer</h2>
+    <div class="detalis_fullStack">   
+        <span>1d ago</span>
+        <span>.</span>
+        <span>Part Time</span>
+        <span>.</span>
+        <span>Remote</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_fullStack">
+        <span>FullStack</span>
+        <span>Midweight</span>
+        <span>Python</span>
+        <span>React</span>
+    </div>
+</div>
+</div>
+<!-- three -->
+<div class="three">
+    <div class="job_junior">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="junior_info">
+        <span class="account">Account</span>
+        <span class="new">New!</span>
+    </div>
+    <div class="Senior">
+        <h2>Junior Frondend Developer</h2>
+    <div class="detalis_junior">   
+        <span>2d ago</span>
+        <span>.</span>
+        <span>Part Time</span>
+        <span>.</span>
+        <span>USA Only</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_junior">
+        <span>Frondend</span>
+        <span>Junior</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Sass</span>
+    </div>
+</div>
+</div>
+
+<!-- four -->
+<div class="four">
+    <div class="job_junior_front">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="junior_info_front">
+        <span class="myHome">MyHome</span>
+    </div>
+    <div class="junior_front">
+        <h2>Junior Frondend Developer</h2>
+    <div class="detalis_junior_front">   
+        <span>5d ago</span>
+        <span>.</span>
+        <span>Contract</span>
+        <span>.</span>
+        <span>USA Only</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_junior_front">
+        <span>Frondend</span>
+        <span>Junior</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        
+    </div>
+</div>
+</div>
+<!-- five -->
+<div class="five">
+    <div class="softWare">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="sofware_info">
+        <span class="loopStudios">Loop Studios</span>
+    </div>
+    <div class="software_h2">
+        <h2>Software Engineer</h2>
+    <div class="detalis_software">   
+        <span>1w ago</span>
+        <span>.</span>
+        <span>Full Time</span>
+        <span>.</span>
+        <span>Worldwide</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_junior_front">
+        <span>Fullstack</span>
+        <span>Midweight</span>
+        <span>JavaScript</span>
+        <span>Ruby</span>
+        <span>Sass</span>
+        
+    </div>
+</div>
+</div>
+<!-- six -->
+<div class="six">
+    <div class="backend">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="backend_info">
+        <span class="facelt">Facelt</span>
+    </div>
+    <div class="backend_h2">
+        <h2>Junior Backend Developer</h2>
+    <div class="detalis_backend">   
+        <span>2w ago</span>
+        <span>.</span>
+        <span>Full Time</span>
+        <span>.</span>
+        <span>Uk Only</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_backend">
+        <span>Backend</span>
+        <span>Junior</span>
+        <span>Ruby</span>
+        <span>RoR</span>
+        
+    </div>
+</div>
+</div>
+<!-- seven -->
+<div class="seven">
+    <div class="shortly">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="shortly_info">
+        <span class="shortly_1">Shortly</span>
+    </div>
+    <div class="shortly_h2">
+        <h2>Junior Developer</h2>
+    <div class="detalis_shortly">   
+        <span>2w ago</span>
+        <span>.</span>
+        <span>Full Time</span>
+        <span>.</span>
+        <span>Worldwide</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_shortly">
+        <span>Frontend</span>
+        <span>Junior</span>
+        <span>HTML</span>
+        <span>JavaScript</span>
+        <span>Sass</span>
+        
+    </div>
+</div>
+</div>
+<!-- insure -->
+<div class="eghit">
+    <div class="insure">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="insure_info">
+        <span class="insure_1">Insure</span>
+    </div>
+    <div class="insure_h2">
+        <h2>Junior Fronend Developer</h2>
+    <div class="detalis_insure">   
+        <span>2w ago</span>
+        <span>.</span>
+        <span>Full Time</span>
+        <span>.</span>
+        <span>USA Only</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_insure">
+        <span>Frontend</span>
+        <span>Junior</span>
+        <span>JavaScript</span>
+        <span>Vue</span>
+        <span>Sass</span>
+
+        
+    </div>
+</div>
+</div>
+<!-- nine -->
+<div class="nine">
+    <div class="eyecam">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="eyecam_info">
+        <span class="eyecam_1">Eyecam Co.</span>
+    </div>
+    <div class="eyecam_h2">
+        <h2>Full Stack Engineer</h2>
+    <div class="detalis_eyecam">   
+        <span>3w ago</span>
+        <span>.</span>
+        <span>Full Time</span>
+        <span>.</span>
+        <span>Worldwide</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_eyecam">
+        <span>Fullstack</span>
+        <span>Midweight</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Django</span>
+
+        
+    </div>
+</div>
+</div>
+<!-- ten -->
+<div class="ten">
+    <div class="frond_end">
+        <div class="logo">
+            <img src="image1.png" alt="no image"></div>
+        <div class="job_h">
+    <div class="frond_end_info">
+        <span class="frond_end_1">The Air Filter Company</span>
+    </div>
+    <div class="frond_end_h2">
+        <h2>Front-end Dev</h2>
+    <div class="detalis_frond_end">   
+        <span>1mo ago</span>
+        <span>.</span>
+        <span>Part Time</span>
+        <span>.</span>
+        <span>Worldwide</span>
+    </div>
+</div>  
+
+</div>
+    <div class="language_frond_end">
+        <span>Fronend</span>
+        <span>Junior</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Sass</span>
+
+        
+    </div>
+</div>
+</div>
+    </div>
+
+
+</body>
+</html>
